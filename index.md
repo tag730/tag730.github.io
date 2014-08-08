@@ -1,5 +1,6 @@
 ---
 Title: Index
+published: true
 ---
 
 Hello World
@@ -8,7 +9,9 @@ Hello World
 More to come!
 
 $$
-\Sigma
+\begin{align*}
+	\phi(x,y)
+\end{align*}
 $$
 
 --Ad@m
