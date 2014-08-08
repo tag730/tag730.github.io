@@ -1,0 +1,8 @@
+name: "Adam Tucker"
+description: "Personal Site"
+
+url: "http://localhost:80"
+
+paginate: 10
+
+permalink: pretty
