@@ -13,7 +13,7 @@ You may trust its output as being truly random, in the range **[1&ndash;5]**.
 My original strategy was to run the random number generator many times, using a
 cumulative sum, to achieve a random number whose maximum value was **5 &times; 7**.
 
-```
+```cs
 var sum = 0;
 for( var i = 0; i < 7; i++)
 {
@@ -96,7 +96,7 @@ multiply them together, then determine the whether we land on a number **[1-7]**
 in our map. If we instead land on a **0**, we simply repeat the procedure until
 we land on a valid result.
 
-```
+```cs
 var valueMap = [ [ 1, 2, 3, 4, 5 ],
                  [ 6, 7, 1, 2, 3 ],
                  [ 4, 5, 6, 7, 1 ],
